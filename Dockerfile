@@ -20,6 +20,7 @@ ADD search-module-testng.xml			search-module.xml
 
 #ADD health check script
 ADD healthcheck.sh              healthcheck.sh
+RUN dos2unix healthcheck.sh
 
 # Environment Variables - 
 # BROWSER
